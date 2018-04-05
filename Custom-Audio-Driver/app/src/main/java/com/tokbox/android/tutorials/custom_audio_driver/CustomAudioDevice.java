@@ -27,7 +27,7 @@ import java.util.concurrent.locks.ReentrantLock;
 
 public class CustomAudioDevice extends BaseAudioDevice {
 
-    private final static String LOG_TAG =  CustomAudioDevice.class.getSimpleName();;
+    private final static String LOG_TAG =  CustomAudioDevice.class.getSimpleName();
 
     private static final int NUM_CHANNELS_CAPTURING = 1;
     private static final int NUM_CHANNELS_RENDERING = 1;
